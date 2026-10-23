@@ -1,32 +1,69 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: #6781a8;
+    background-color: #f4f6f9;
 }
 
-.box {
-    background-color: #ffffff6f;
-    border: 3px solid #0056b3;
+
+.card {
+    width: 100%;
+    max-width: 350px;
+    min-height: 180px;
+    padding: 20px;
     margin-bottom: 20px;
+    border-radius: 12px;
 }
 
 
-.box-content-box {
-    box-sizing: content-box;
-    width: 300px;
-    padding: 20px; 
+.basic-card {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
 }
 
-.box-border-box {
-    box-sizing: border-box;
-    width: 300px;
-    padding: 20px; 
+.standard-card {
+    background-color: #e6f0fa;
+    border: 2px solid #0056b3;
 }
 
-.box-custom {
-    box-sizing: border-box;
-    width: 350px;
-    padding: 30px;
-    margin: 25px; 
-    border: 5px dashed #333333; 
+.premium-card {
+    background-color: #fff3cd;
+    border: 2px solid #ffc107;
+}
+
+.card button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.display-demo {
+    margin-top: 30px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.inline-el {
+    display: inline;
+    background: #ffcccc;
+    padding: 5px;
+}
+
+.block-el {
+    display: block;
+    background: #ccffcc;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.inline-block-el {
+    display: inline-block;
+    width: 150px;
+    background: #cceeff;
+    margin-top: 10px;
+    padding: 5px;
 }
