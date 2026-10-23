@@ -4,66 +4,24 @@ body {
     background-color: #f4f6f9;
 }
 
-
-.card {
-    width: 100%;
-    max-width: 350px;
-    min-height: 180px;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 12px;
-}
-
-
-.basic-card {
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-}
-
-.standard-card {
-    background-color: #e6f0fa;
+.overflow-box {
+    width: 300px;
+    height: 80px; 
     border: 2px solid #0056b3;
-}
-
-.premium-card {
-    background-color: #fff3cd;
-    border: 2px solid #ffc107;
-}
-
-.card button {
-    background-color: #0056b3;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 4px;
-    cursor: pointer;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 
-.display-demo {
-    margin-top: 30px;
-    padding: 15px;
-    background: #fff;
-    border: 1px solid #ddd;
+.overflow-hidden {
+    overflow: hidden;
 }
 
-.inline-el {
-    display: inline;
-    background: #ffcccc;
-    padding: 5px;
+.overflow-scroll {
+    overflow: scroll;
 }
 
-.block-el {
-    display: block;
-    background: #ccffcc;
-    margin-top: 10px;
-    padding: 5px;
-}
-
-.inline-block-el {
-    display: inline-block;
-    width: 150px;
-    background: #cceeff;
-    margin-top: 10px;
-    padding: 5px;
+.overflow-auto {
+    overflow: auto; 
 }

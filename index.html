@@ -3,38 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edmundo Murima - Cards & Display</title>
+    <title>Edmundo Murima - Overflow Practice</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Card Designs & Display Properties</h1>
-    <p>Author: Edmundo Murima</p>
+    <h1>CSS Overflow Testing</h1>
+    <p>Prepared by Edmundo Murima</p>
 
-    <div class="card basic-card">
-        <h2>Basic Plan</h2>
-        <p>Standard web development training materials.</p>
-        <button>Select Basic</button>
+    <h3>Overflow: Hidden</h3>
+    <div class="overflow-box overflow-hidden">
+        <p>This content overflows the fixed height container. Because overflow is set to hidden, any extra text that goes beyond the box boundaries is clipped and completely hidden from view without showing scrollbars.</p>
     </div>
 
-    <div class="card standard-card">
-        <h2>Standard Plan</h2>
-        <p>Full access to web and civil engineering modules.</p>
-        <button>Select Standard</button>
+    <h3>Overflow: Scroll</h3>
+    <div class="overflow-box overflow-scroll">
+        <p>This content overflows the fixed height container. With overflow set to scroll, scrollbars are always visible on the box regardless of whether the text actually needs scrolling, enabling users to move through text easily.</p>
     </div>
 
-    <div class="card premium-card">
-        <h2>Premium Plan</h2>
-        <p>Exclusive mentorship and advanced project reviews.</p>
-        <button>Select Premium</button>
-    </div>
-
-    
-    <div class="display-demo">
-        <span class="inline-el">Inline Element 1</span>
-        <span class="inline-el">Inline Element 2</span>
-        <div class="block-el">Block Element Example</div>
-        <div class="inline-block-el">Inline-Block 1</div>
-        <div class="inline-block-el">Inline-Block 2</div>
+    <h3>Overflow: Auto</h3>
+    <div class="overflow-box overflow-auto">
+        <p>This content overflows the fixed height container. With overflow set to auto, scrollbars appear automatically only when the content exceeds the box dimensions, providing clean usability for web projects.</p>
     </div>
 </body>
 </html>
