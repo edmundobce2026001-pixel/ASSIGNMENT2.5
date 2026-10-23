@@ -3,66 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edmundo Murima - Typography Showcase</title>
-    <meta name="description" content="Typography showcase page demonstrating font families, sizes, weights, and text styling by Edmundo Murima.">
+    <title>Edmundo Murima - CSS Variables & Design Tokens</title>
+    <meta name="description" content="Demonstration of CSS variables and design tokens implemented by Edmundo Murima.">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    
-    
+    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
-    
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     
     <header>
-        <h1>Typography Showcase</h1>
-        <p><em>Created by Edmundo Murima — Web Development & Engineering</em></p>
+        <h1>Design Tokens & CSS Variables</h1>
+        <p><em>Created by Edmundo Murima</em></p>
         <nav>
             <a href="index.html">Home</a> | 
             <a href="about.html">About</a>
         </nav>
     </header>
 
+
     <main>
         
-        <section class="typography-section">
-            <h2>Heading Styles</h2>
-            <h1>Main Title (H1) — Poppins Bold</h1>
-            <h2>Section Subtitle (H2) — Poppins Semibold</h2>
-            <h3>Minor Heading (H3) — Poppins Regular</h3>
+        <section class="card">
+            <h2>Web Development Card</h2>
+            <p>This card uses design tokens for padding, background colors, and typography scaling.</p>
+            <button class="btn">Explore Project</button>
         </section>
 
-        <hr>
 
-        
-        <section class="typography-section">
-            <h2>Paragraph Styles</h2>
-            <p class="lead-paragraph">
-                This is a lead paragraph utilizing custom line-height, letter-spacing, and an italic font-style 
-                to highlight important introductions in web design and civil engineering project overviews.
-            </p>
-            <p>
-                Standard body paragraph using Open Sans. It ensures clean spacing, excellent readability, 
-                and comfortable text flow across multiple lines for users browsing your portfolio.
-            </p>
-        </section>
-
-        <hr>
-
-        
-        <section class="typography-section">
-            <h2>Text Emphasis</h2>
-            <p>Here is some text with <strong>bold weight emphasis</strong> for high importance.</p>
-            <p>Here is some text with <em>italic style emphasis</em> using font-style.</p>
-            <p class="underlined-text">Here is text featuring customized text-decoration styling.</p>
+        <section class="card">
+            <h2>Civil Engineering Card</h2>
+            <p>Changing a single CSS variable in :root instantly updates elements across the entire page.</p>
+            <button class="btn">View Structures</button>
         </section>
     </main>
 
-    
+
     <footer>
         <p>&copy; 2026 Edmundo Murima. All rights reserved.</p>
     </footer>
