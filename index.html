@@ -3,36 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edmundo Murima - Positioning Practice</title>
+    <title>Edmundo Murima - Profile Card Component</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <nav class="sticky-nav">
-        <a href="#home">Home</a>
-        <a href="#section1">Projects</a>
-        <a href="#section2">Contact</a>
-    </nav>
-
-
-    <button class="floating-btn">Help</button>
-
-    <header id="home">
-        <h1>CSS Positioning Practice</h1>
-        <p>Created by Edmundo Murima</p>
-    </header>
-
-    <main>
+    <main class="profile-container">
         
-        <section id="section1" class="relative-card">
-            <span class="absolute-badge">Featured</span>
-            <h2>Web Development Project</h2>
-            <p>Exploring sticky navigation, fixed elements, and absolute positioning layers.</p>
-        </section>
-
-        <div style="height: 800px;">
+        <div class="profile-card">
             
-            <p>Scroll down to see sticky navigation and fixed button in action.</p>
+            <span class="status-badge">Available</span>
+
+            
+            <img src="images/profile.jpg" alt="Edmundo Murima Profile Photo" class="profile-img">
+
+            
+            <h2>Edmundo Murima</h2>
+            <p class="role">Web Developer & Civil Engineer</p>
+
+            
+            <p class="description">
+                Passionate about building responsive web applications and designing robust structural engineering solutions.
+            </p>
+
+            
+            <div class="skills-container">
+                <span class="skill-tag">HTML5 & CSS3</span>
+                <span class="skill-tag">Git Workflow</span>
+                <span class="skill-tag">Structural Design</span>
+            </div>
+
+            
+            <button class="contact-btn">Get in Touch</button>
         </div>
     </main>
 </body>
