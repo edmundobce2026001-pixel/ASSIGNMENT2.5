@@ -3,24 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edmundo Murima - Responsive Navigation Bar</title>
+    <title>Edmundo Murima - Pricing & Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Pricing Plans</h1>
+    <p>Created by Edmundo Murima</p>
+
+    <!-- Pricing Cards Container -->
+    <div class="pricing-container">
+        <div class="card">
+            <h3>Basic Plan</h3>
+            <p class="price">$10/mo</p>
+            <ul>
+                <li>HTML5 & CSS3 Basics</li>
+                <li>Community Access</li>
+            </ul>
+            <button>Choose Plan</button>
+        </div>
+
+        <div class="card popular">
+            <h3>Pro Plan</h3>
+            <p class="price">$25/mo</p>
+            <ul>
+                <li>Advanced Flexbox & Grid</li>
+                <li>Civil Software Guides</li>
+            </ul>
+            <button>Choose Plan</button>
+        </div>
+
+        <div class="card">
+            <h3>Premium Plan</h3>
+            <p class="price">$50/mo</p>
+            <ul>
+                <li>Full Mentorship</li>
+                <li>Direct Support</li>
+            </ul>
+            <button>Choose Plan</button>
+        </div>
+    </div>
+
     
-    <header class="navbar-header">
-        <div class="logo">
-            <h2>Civil & Web Club</h2>
-        </div>
-        <nav class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="registration.html">Register</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        <div class="nav-btn">
-            <button class="cta-button">Join Now</button>
-        </div>
-    </header>
+    <div class="login-wrapper">
+        <form class="login-form">
+            <h2>Member Login</h2>
+            <div>
+                <label>Email:</label>
+                <input type="email" placeholder="edmundo@example.com" required>
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" placeholder="********" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
 </body>
 </html>
