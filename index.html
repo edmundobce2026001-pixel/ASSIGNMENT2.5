@@ -3,19 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edmundo Murima - Responsive Article</title>
+    <title>Edmundo Murima - Flex & Grid Landing</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="article-container">
-        <header>
-            <h1>Modern Web Engineering Standards</h1>
-            <p class="author">Published by Edmundo Murima</p>
-        </header>
-        <section>
-            <p>Responsive typography and scalable images ensure that digital content remains readable and visually appealing across all device viewports, from mobile phones to ultra-wide desktop monitors.</p>
-            <img src="images/photo1.jpg" alt="Responsive Design Illustration">
-            <p>By implementing flexible layout constraints and fluid font sizing techniques, developers can deliver optimal user experiences seamlessly.</p>
+    <header class="navbar">
+        <div class="logo">Civil & Web Club</div>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main class="main-layout">
+        <section class="hero-section">
+            <div class="hero-text">
+                <h1>Engineering & Code Integration</h1>
+                <p>Designed by Edmundo Murima for high-performance responsive web environments.</p>
+                <button class="btn">Get Started</button>
+            </div>
+            <div class="hero-image">
+                <img src="images/photo2.jpg" alt="Hero">
+            </div>
+        </section>
+
+        <section class="features-grid">
+            <div class="feature-card"><h3>Web Dev</h3><p>Modern HTML5 & CSS3 workflows.</p></div>
+            <div class="feature-card"><h3>Structures</h3><p>Robust civil engineering designs.</p></div>
+            <div class="feature-card"><h3>Responsive</h3><p>Fluid layouts across all screens.</p></div>
         </section>
     </main>
 </body>
